@@ -7,7 +7,7 @@ Slide decks von Roman Mesicek — gebaut mit [Slidev](https://sli.dev), gehostet
 | Datum | Titel | Anlass | Slides | PDF |
 |-------|-------|--------|--------|-----|
 | 24.02.2026 | Green & Responsible AI in der Sozialwirtschaft | Workshop Diakonie Österreich | [Slides](https://romanmesicek.github.io/presentations/diakonie-greenai-20260224/) | [PDF](https://romanmesicek.github.io/presentations/diakonie-greenai-20260224/slides.pdf) |
-| 09.02.2026 | KI Skills Development Workflow | KI-Forum | [Slides](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/) | [PDF](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/slides.pdf) |
+| 09.02.2026 | KI Skills Development Workflow | KI-Forum 36 Degrees | [Slides](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/) | [PDF](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/slides.pdf) |
 
 ## Lokale Entwicklung
 

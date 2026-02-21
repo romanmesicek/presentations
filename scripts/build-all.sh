@@ -17,6 +17,7 @@ for dir in "$ROOT"/decks/*/; do
 
   cd "$dir"
   npm install
+  npm install -D playwright-chromium
 
   # HTML build with correct base path for GitHub Pages
   npx slidev build --base "/$REPO_NAME/$slug/"
