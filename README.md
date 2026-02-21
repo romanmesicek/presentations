@@ -10,13 +10,13 @@ Jede Präsentation ist als interaktive Web-Version verfügbar (Tastaturnavigatio
 
 Online-Workshop für die [Diakonie Österreich](https://www.diakonie.at/) am 24. Februar 2026. Das SCOPE-Framework (Suffizienz, Carbon, Outcomes, Power, Endurance) angewandt auf KI-Entscheidungen in sozialen Einrichtungen — mit Fallstudien aus der Pflege und Verwaltung.
 
-[Slides](https://romanmesicek.github.io/presentations/diakonie-greenai-20260224/) | [PDF](https://romanmesicek.github.io/presentations/diakonie-greenai-20260224/slides.pdf)
+Theme: [Neversink](https://github.com/gureckis/slidev-theme-neversink) | [Slides](https://romanmesicek.github.io/presentations/diakonie-greenai-20260224/) | [PDF](https://romanmesicek.github.io/presentations/diakonie-greenai-20260224/slides.pdf)
 
 ### KI Skills Development Workflow
 
 Vortrag beim [KI-Forum](https://36sustainability.org/) von 36 Degrees am 9. Februar 2026. Systematischer Prozess zur Erstellung von Claude Skills — von der Idee bis zur Publikation.
 
-[Slides](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/) | [PDF](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/slides.pdf)
+Theme: [Apple Basic](https://github.com/slidevjs/themes/tree/main/packages/theme-apple-basic) | [Slides](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/) | [PDF](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/slides.pdf)
 
 ## Lokale Entwicklung
 
