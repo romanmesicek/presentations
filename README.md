@@ -6,10 +6,14 @@ Jede Präsentation ist als interaktive Web-Version verfügbar (Tastaturnavigatio
 
 ## Decks
 
-| Datum | Titel | Anlass | Theme | Slides | PDF |
-|-------|-------|--------|-------|--------|-----|
-| 24.02.2026 | Green & Responsible AI in der Sozialwirtschaft | Online-Workshop für die [Diakonie Österreich](https://www.diakonie.at/) — SCOPE-Framework angewandt auf KI-Entscheidungen in sozialen Einrichtungen | [Neversink](https://github.com/gureckis/slidev-theme-neversink) | [Slides](https://romanmesicek.github.io/presentations/diakonie-greenai-20260224/) | [PDF](https://romanmesicek.github.io/presentations/diakonie-greenai-20260224/slides.pdf) |
-| 09.02.2026 | KI Skills Development Workflow | Vortrag beim [KI-Forum](https://36sustainability.org/) von 36 Degrees — systematischer Prozess zur Erstellung von Claude Skills | [Apple Basic](https://github.com/slidevjs/themes/tree/main/packages/theme-apple-basic) | [Slides](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/) | [PDF](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/slides.pdf) |
+| Datum | Titel | Anlass | Slides | PDF |
+|-------|-------|--------|--------|-----|
+| 24.02.2026 | Green & Responsible AI in der Sozialwirtschaft | Online-Workshop für die [Diakonie Österreich](https://www.diakonie.at/) — SCOPE-Framework angewandt auf KI-Entscheidungen in sozialen Einrichtungen | [Slides](https://romanmesicek.github.io/presentations/diakonie-greenai-20260224/) | [PDF](https://romanmesicek.github.io/presentations/diakonie-greenai-20260224/slides.pdf) |
+| 09.02.2026 | KI Skills Development Workflow | Vortrag beim [KI-Forum](https://36sustainability.org/) von 36 Degrees — systematischer Prozess zur Erstellung von Claude Skills | [Slides](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/) | [PDF](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/slides.pdf) |
+
+### Themes
+
+Verwendete Slidev-Themes: [Neversink](https://github.com/gureckis/slidev-theme-neversink), [Apple Basic](https://github.com/slidevjs/themes/tree/main/packages/theme-apple-basic).
 
 ## Lokale Entwicklung
 
