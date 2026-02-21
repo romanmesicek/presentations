@@ -16,7 +16,7 @@ for dir in "$ROOT"/decks/*/; do
   echo "========================================"
 
   cd "$dir"
-  npm ci
+  npm install
 
   # HTML build with correct base path for GitHub Pages
   npx slidev build --base "/$REPO_NAME/$slug/"
