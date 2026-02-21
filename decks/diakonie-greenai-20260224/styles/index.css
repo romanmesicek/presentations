@@ -1,0 +1,6 @@
+/* Custom styles for greenai-20260224 */
+
+/* Hide Neversink theme footer on all slides */
+footer {
+  display: none !important;
+}

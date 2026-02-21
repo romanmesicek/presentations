@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Gear -->
+  <path d="M16 4l2.2 1.1 2.4-.5 1.4 2 2.4.5.2 2.5 2 1.4-.5 2.4 1.1 2.2-1.1 2.2.5 2.4-2 1.4-.2 2.5-2.4.5-1.4 2-2.4-.5L16 28l-2.2-1.1-2.4.5-1.4-2-2.4-.5-.2-2.5-2-1.4.5-2.4L4 16l1.1-2.2-.5-2.4 2-1.4.2-2.5 2.4-.5 1.4-2 2.4.5z" fill="#004A4A" stroke="#004A4A" stroke-width="0.5" stroke-linejoin="round"/>
+  <circle cx="16" cy="16" r="5.5" fill="white"/>
+  <!-- Pen -->
+  <g transform="translate(12.5, 8) rotate(45, 5, 8)">
+    <rect x="3" y="0" width="4" height="12" rx="0.5" fill="#959E40"/>
+    <polygon points="3,12 5,16 7,12" fill="#004A4A"/>
+    <rect x="3" y="0" width="4" height="2.5" rx="0.5" fill="#AA80E0"/>
+  </g>
+</svg>
