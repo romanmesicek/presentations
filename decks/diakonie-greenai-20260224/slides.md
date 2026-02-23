@@ -23,7 +23,7 @@ Workshop Diakonie Österreich
 
 ---
 layout: top-title
-color: stone-light
+color: light
 align: l
 ---
 
@@ -89,7 +89,7 @@ align: l
 
 ---
 layout: two-cols-title
-color: stone-light
+color: light
 columns: is-one-half
 align: l-cm-cm
 ---
@@ -377,7 +377,7 @@ align: l
 
 ---
 layout: top-title
-color: stone-light
+color: light
 align: l
 ---
 
@@ -397,7 +397,7 @@ align: l
 
 ---
 layout: top-title
-color: stone-light
+color: light
 align: l
 ---
 
@@ -417,7 +417,7 @@ align: l
 
 ---
 layout: top-title
-color: stone-light
+color: light
 align: l
 ---
 
@@ -462,7 +462,7 @@ Meine Vermutung war: Die Spannweite ist groß — von lokalen Open-Source-Modell
 ---
 layout: side-title
 side: l
-color: stone-light
+color: light
 titlewidth: is-one-third
 align: rm-lt
 ---
@@ -511,7 +511,7 @@ align: rm-lt
 
 ---
 layout: top-title-two-cols
-color: stone-light
+color: light
 columns: is-one-third
 align: l-cm-cm
 ---
