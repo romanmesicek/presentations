@@ -37,41 +37,41 @@ align: l
 
 <div class="border-2 border-stone-500 rounded-lg p-4">
 
-*„Wir nutzen KI für Dienstpläne, Reinigung, Textierung — aber ohne klare Richtlinien."*
+*„KI ist schon im Einsatz — jetzt braucht es einen Rahmen dafür."*
 
-<span class="text-xs text-gray-500">Tools ohne Governance</span>
-
-</div>
-
-<div class="border-2 border-stone-500 rounded-lg p-4">
-
-*„Regelmäßig wiederkehrende Prozesse vereinfachen — z.B. das Auslesen von Energiedaten."*
-
-<span class="text-xs text-gray-500">Automation als Ziel</span>
+<span class="text-xs text-gray-500">Praxis trifft Strategie</span>
 
 </div>
 
 <div class="border-2 border-stone-500 rounded-lg p-4">
 
-*„Fokus auf digitale Souveränität — nicht immer umsetzbar."*
+*„Wiederkehrende Prozesse vereinfachen — z.B. das Auslesen von Energiedaten."*
 
-<span class="text-xs text-gray-500">Open Source vs. Realität</span>
-
-</div>
-
-<div class="border-2 border-stone-500 rounded-lg p-4">
-
-*„Mehr Zeit für Pflege — glaube ich aber eh nicht."*
-
-<span class="text-xs text-gray-500">Gesunde Skepsis</span>
+<span class="text-xs text-gray-500">Effizienz durch Automation</span>
 
 </div>
 
 <div class="border-2 border-stone-500 rounded-lg p-4">
 
-*„Datenschutz. Datenschutz. Datenschutz."*
+*„Digitale Souveränität ist ein Ziel — der Weg dahin ist nicht immer einfach."*
 
-<span class="text-xs text-gray-500">Die Dreifach-Betonung</span>
+<span class="text-xs text-gray-500">Souveränität als Anspruch</span>
+
+</div>
+
+<div class="border-2 border-stone-500 rounded-lg p-4">
+
+*„Mehr Zeit für Betreuung — das muss sich erst beweisen."*
+
+<span class="text-xs text-gray-500">Erwartung und Realität</span>
+
+</div>
+
+<div class="border-2 border-stone-500 rounded-lg p-4">
+
+*„Datenschutz ist das zentrale Thema — bei jeder KI-Entscheidung."*
+
+<span class="text-xs text-gray-500">Klare Priorität</span>
 
 </div>
 
@@ -79,7 +79,7 @@ align: l
 
 *„Ist ‚Green AI' nicht ein Oxymoron?"*
 
-<span class="text-xs text-gray-500">Die Kernfrage</span>
+<span class="text-xs text-gray-500">Die richtige Frage</span>
 
 </div>
 
@@ -385,14 +385,14 @@ align: l
 
 ### Fallstudie 1
 
-# KI-gestützte Pflegedokumentation
+# KI-gestützte Klient\*innen-Dokumentation
 
 :: content ::
 
 <ScopeMatrix
-  context-icon="🏥"
-  context-label="Aus eurer Praxis — Pflege"
-  context="Spracheingabe durch Pflegekräfte, die direkt mit der Pflegeplanung verknüpft wird. KI transkribiert, strukturiert und verknüpft automatisch mit dem Pflegeplan. Ein reales Szenario aus der Befragung — mit direktem Einfluss auf vulnerable Klient*innen."
+  context-icon="🧑‍🤝‍🧑"
+  context-label="Aus eurer Praxis — Klient*innen"
+  context="Spracheingabe durch Mitarbeiter*innen, die direkt mit der Betreuungsplanung verknüpft wird. KI transkribiert, strukturiert und verknüpft automatisch mit dem Betreuungsplan. Ein reales Szenario aus der Befragung — mit direktem Einfluss auf vulnerable Klient*innen."
 />
 
 ---
@@ -414,50 +414,6 @@ align: l
   context-label="Aus eurer Praxis — Verwaltung"
   context="ChatGPT, Perplexity oder ähnliche Tools für Berichte, Projektanträge, Übersetzungen und interne Kommunikation. Niedrigschwelliger Einsatz, aber mit Fragen zu Stellenabbau und Vendor Lock-in. Eine Person nennt explizit den Abbau von Dolmetscher*innenstellen als Bedenken."
 />
-
----
-layout: top-title
-color: light
-align: l
----
-
-:: title ::
-
-### Reflexion
-
-# Was wir gesehen haben
-
-:: content ::
-
-<p class="text-sm text-gray-500 mb-4">Nach zwei Fallstudien — stimmen diese Vermutungen mit eurem Eindruck überein?</p>
-
-<div class="grid grid-cols-3 gap-4">
-
-<div class="border-2 border-sky-600 rounded-lg p-5">
-
-### Outcomes dominieren
-
-Meine Vermutung war: Die Frage „Wer verliert?" bewegt euch am meisten — Stellenabbau, Fehlentscheidungen bei vulnerablen Gruppen, die Skepsis, ob Effizienz wirklich in Beziehungsarbeit fließt. Stimmt das?
-
-</div>
-
-<div class="border-2 border-orange-600 rounded-lg p-5">
-
-### Problembewusstsein ohne Kriterien
-
-Meine Vermutung war: Datenschutz wird als Bedenken benannt, aber konkrete Kriterien für die Toolauswahl fehlen — eine Lücke zwischen Wissen und Handeln. Seht ihr das anders?
-
-</div>
-
-<div class="border-2 border-violet-600 rounded-lg p-5">
-
-### Digitale Souveränität als Spektrum
-
-Meine Vermutung war: Die Spannweite ist groß — von lokalen Open-Source-Modellen bis zu reiner US-Cloud-Abhängigkeit. Wo steht ihr?
-
-</div>
-
-</div>
 
 ---
 layout: side-title
