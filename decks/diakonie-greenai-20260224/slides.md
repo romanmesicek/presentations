@@ -421,6 +421,7 @@ side: l
 color: light
 titlewidth: is-one-third
 align: rm-lt
+disabled: true
 ---
 
 :: title ::
