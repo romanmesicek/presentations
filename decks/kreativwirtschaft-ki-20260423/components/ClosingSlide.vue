@@ -18,13 +18,20 @@ defineProps({
   ctaBody: { type: String, default: '' },
   ctaUrl: { type: String, default: '' },
 })
+
+const base = import.meta.env.BASE_URL
+function asset(p) {
+  if (!p) return ''
+  if (/^(https?:|data:|mailto:)/.test(p)) return p
+  return p.startsWith('/') ? base + p.slice(1) : p
+}
 </script>
 
 <template>
   <div class="closing">
     <aside class="rail">
       <div class="top">
-        <img v-if="photo" :src="photo" :alt="speaker" class="photo" />
+        <img v-if="photo" :src="asset(photo)" :alt="speaker" class="photo" />
         <div class="speaker">{{ speaker }}</div>
         <div class="aff" v-if="affiliation">{{ affiliation }}</div>
       </div>
@@ -52,7 +59,7 @@ defineProps({
           <p class="cta-body" v-if="ctaBody">{{ ctaBody }}</p>
           <a v-if="ctaUrl" :href="ctaUrl" target="_blank" class="cta-url">{{ ctaUrl.replace(/^https?:\/\//, '') }}</a>
         </div>
-        <img v-if="qr" :src="qr" class="qr" alt="QR-Code" />
+        <img v-if="qr" :src="asset(qr)" class="qr" alt="QR-Code" />
       </div>
     </section>
   </div>
