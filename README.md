@@ -1,6 +1,6 @@
 # Presentations
 
-Slide decks von [Roman Mesicek](https://www.linkedin.com/in/romanmesicek/) zu den Themen Nachhaltigkeit, KI und Verantwortung — gebaut mit [Slidev](https://sli.dev) und automatisch via GitHub Pages gehostet.
+Slide decks von [Roman Mesicek](https://www.linkedin.com/in/romanmesicek/) zu den Themen Nachhaltigkeit, KI und Verantwortung. Gebaut mit [Slidev](https://sli.dev) und automatisch via GitHub Pages gehostet.
 
 Jede Präsentation ist als interaktive Web-Version verfügbar (Tastaturnavigation, Animationen) sowie als PDF zum Download.
 
@@ -8,9 +8,9 @@ Jede Präsentation ist als interaktive Web-Version verfügbar (Tastaturnavigatio
 
 | Datum | Titel | Anlass | Slides | PDF |
 |-------|-------|--------|--------|-----|
-| 23.04.2026 | Nachhaltige Entscheidungsgrundlagen für KI-Projekte | Online-Impuls bei [wewant2know](https://www.kreativwirtschaft.at/wewant2know-im-kreis-laufen-ist-dein-neues-business/) (Kreativwirtschaft Austria) — SCOPE-Framework für die Kreativbranche | [Slides](https://romanmesicek.github.io/presentations/kreativwirtschaft-ki-20260423/) | [PDF](https://romanmesicek.github.io/presentations/kreativwirtschaft-ki-20260423/slides.pdf) |
-| 24.02.2026 | Green & Responsible AI in der Sozialwirtschaft | Online-Workshop für die [Diakonie Österreich](https://www.diakonie.at/) — SCOPE-Framework angewandt auf KI-Entscheidungen in sozialen Einrichtungen | [Slides](https://romanmesicek.github.io/presentations/diakonie-greenai-20260224/) | [PDF](https://romanmesicek.github.io/presentations/diakonie-greenai-20260224/slides.pdf) |
-| 09.02.2026 | KI Skills Development Workflow | Vortrag beim [KI-Forum](https://36sustainability.org/) von 36 Degrees — systematischer Prozess zur Erstellung von Claude Skills | [Slides](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/) | [PDF](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/slides.pdf) |
+| 23.04.2026 | Nachhaltige Entscheidungsgrundlagen für KI-Projekte | Online-Impuls bei [wewant2know](https://www.kreativwirtschaft.at/wewant2know-im-kreis-laufen-ist-dein-neues-business/) (Kreativwirtschaft Austria). SCOPE-Framework für die Kreativbranche. | [Slides](https://romanmesicek.github.io/presentations/kreativwirtschaft-ki-20260423/) | [PDF](https://romanmesicek.github.io/presentations/kreativwirtschaft-ki-20260423/slides.pdf) |
+| 24.02.2026 | Green & Responsible AI in der Sozialwirtschaft | Online-Workshop für die [Diakonie Österreich](https://www.diakonie.at/). SCOPE-Framework angewandt auf KI-Entscheidungen in sozialen Einrichtungen. | [Slides](https://romanmesicek.github.io/presentations/diakonie-greenai-20260224/) | [PDF](https://romanmesicek.github.io/presentations/diakonie-greenai-20260224/slides.pdf) |
+| 09.02.2026 | KI Skills Development Workflow | Vortrag beim [KI-Forum](https://36sustainability.org/) von 36 Degrees. Systematischer Prozess zur Erstellung von Claude Skills. | [Slides](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/) | [PDF](https://romanmesicek.github.io/presentations/kiforum-skillsdev-20260209/slides.pdf) |
 
 ### Themes
 
