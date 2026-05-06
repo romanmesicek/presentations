@@ -1,0 +1,18 @@
+{
+  "name": "marketingclub-ki-20260512",
+  "version": "1.0.0",
+  "description": "Nachhaltige Entscheidungsgrundlagen für KI-Projekte — Marketing-Club, 12.5.2026",
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base './'",
+    "export": "slidev export"
+  },
+  "keywords": [],
+  "author": "Roman Mesicek",
+  "license": "ISC",
+  "dependencies": {
+    "@slidev/cli": "^52.12.0",
+    "@slidev/theme-default": "^0.25.0",
+    "slidev-theme-neversink": "^0.4.1"
+  }
+}

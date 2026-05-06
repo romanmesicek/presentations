@@ -1,0 +1,42 @@
+/* Custom styles for kreativwirtschaft-ki-20260423 */
+
+/* Hide Neversink theme footer on all slides */
+footer {
+  display: none !important;
+}
+
+/* Override Neversink highlight color: indigo instead of orange */
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  border-bottom-color: #818cf8 !important;
+}
+
+/* Remove underlines from links */
+.slidev-layout a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  transition: color 0.2s;
+}
+
+/* Hover color for links: indigo accent */
+.slidev-layout a:hover {
+  color: #818cf8 !important;
+}
+
+/* Ensure source citations stay small */
+.slidev-layout .text-xs {
+  font-size: 0.7rem !important;
+  line-height: 1rem !important;
+}
+
+/* Fix paragraph margins in Neversink */
+.slidev-layout p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.slidev-layout span {
+  margin-top: 0;
+  margin-bottom: 0;
+}
