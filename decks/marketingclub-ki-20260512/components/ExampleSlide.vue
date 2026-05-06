@@ -1,9 +1,9 @@
 <script setup>
 /**
  * ExampleSlide — Brand example + discussion question, paired with a SCOPE Frame slide.
- * Rail (SCOPE color) on the left with letter + position. Body on the right with
- * brand label, optional stat block, and a discussion question in a colored panel.
- * Props: letter, name, position, color, brand, note?, stat?, statLabel?, statSource?, discussion.
+ * Rail (SCOPE color) on the left with letter badge + position. Body on the right with
+ * Eskalations-Slogan headline, brand label, optional stat block, and discussion question.
+ * Props: letter, name, position, color, slogan?, brand, note?, stat?, statLabel?, statSource?, discussion.
  * `**text**` in note becomes accent <em>.
  */
 defineProps({
@@ -11,6 +11,7 @@ defineProps({
   name: { type: String, required: true },
   position: { type: String, default: '' },
   color: { type: String, default: 'sky' },
+  slogan: { type: String, default: '' },
   brand: { type: String, required: true },
   note: { type: String, default: '' },
   stat: { type: String, default: '' },
@@ -32,24 +33,15 @@ function rgb(c) { return colorMap[c] || colorMap.sky }
 <template>
   <div class="example" :style="{ '--rail-bg': rgb(color).bg, '--accent': rgb(color).accent }">
     <aside class="rail">
-      <div class="rail-top">
-        <div class="kicker">Beispiel</div>
-        <div class="big-letter">{{ letter }}</div>
-        <ul class="letters">
-          <li :class="{ me: letter === 'S' }">S · Suffizienz</li>
-          <li :class="{ me: letter === 'C' }">C · Carbon</li>
-          <li :class="{ me: letter === 'O' }">O · Outcomes</li>
-          <li :class="{ me: letter === 'P' }">P · Power</li>
-          <li :class="{ me: letter === 'E' }">E · Endurance</li>
-        </ul>
-      </div>
-      <div class="rail-bot">
-        <div class="name">{{ name }}</div>
-        <div class="pos" v-if="position">{{ position }} / 05</div>
-      </div>
+      <div class="kicker">Beispiel</div>
+      <div class="name">{{ name }}</div>
     </aside>
 
     <section class="body">
+      <header class="headline" v-if="slogan">
+        <h2 class="slogan">{{ slogan }}</h2>
+      </header>
+
       <div class="top">
         <div class="label">Bei wem das gerade passiert</div>
         <div class="brand">{{ brand }}</div>
@@ -97,77 +89,61 @@ function rgb(c) { return colorMap[c] || colorMap.sky }
   text-transform: uppercase;
   font-weight: 600;
   opacity: 0.85;
-  margin-bottom: 0.5rem;
 }
-
-.big-letter {
-  font-size: 6rem;
-  font-weight: 800;
-  line-height: 0.85;
-  letter-spacing: -0.06em;
-}
-
-.letters {
-  list-style: none;
-  padding: 0;
-  margin: 0.5rem 0 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
-}
-.letters li {
-  font-size: 0.7rem;
-  font-weight: 600;
-  opacity: 0.5;
-  letter-spacing: 0.08em;
-}
-.letters li.me { opacity: 1; }
 
 .name {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.01em;
   line-height: 1.15;
 }
-.pos {
-  margin-top: 0.6rem;
-  font-size: 0.65rem;
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
-  opacity: 0.6;
-  letter-spacing: 0.08em;
-}
 
 .body {
-  padding: 2.25rem 3rem;
+  padding: 2rem 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 1.25rem;
+  gap: 1rem;
+}
+
+.headline {
+  border-left: 2px solid var(--accent);
+  padding-left: 1.1rem;
+}
+.slogan {
+  margin: 0;
+  font-size: 2.15rem;
+  line-height: 1.05;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: white;
+  max-width: 28ch;
+  text-wrap: balance;
 }
 
 .label {
   font-family: 'JetBrains Mono', ui-monospace, monospace;
-  font-size: 0.7rem;
-  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.5);
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.4rem;
 }
 
 .brand {
-  font-size: 1.85rem;
+  font-size: 1.55rem;
   font-weight: 700;
   letter-spacing: -0.02em;
-  line-height: 1.1;
+  line-height: 1.15;
   color: white;
 }
 
 .note {
-  margin-top: 0.9rem;
-  font-size: 1rem;
+  margin-top: 0.7rem;
+  font-size: 0.95rem;
   line-height: 1.4;
   color: rgba(255, 255, 255, 0.78);
-  max-width: 48ch;
+  max-width: 52ch;
   font-weight: 400;
 }
 .note :deep(em) {
@@ -185,24 +161,25 @@ function rgb(c) { return colorMap[c] || colorMap.sky }
   padding-left: 1.25rem;
 }
 .value {
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 800;
   letter-spacing: -0.04em;
-  line-height: 0.9;
+  line-height: 0.95;
   color: white;
+  white-space: nowrap;
 }
 .stat-label {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   line-height: 1.35;
   color: rgba(255, 255, 255, 0.9);
   font-weight: 500;
-  max-width: 42ch;
+  max-width: 50ch;
 }
 .src {
   margin: 0.4rem 0 0;
   font-family: 'JetBrains Mono', ui-monospace, monospace;
-  font-size: 0.6rem;
+  font-size: 0.55rem;
   color: rgba(255, 255, 255, 0.55);
   letter-spacing: 0.05em;
 }
@@ -210,7 +187,7 @@ function rgb(c) { return colorMap[c] || colorMap.sky }
 .discussion {
   background: var(--rail-bg);
   color: white;
-  padding: 1.1rem 1.4rem;
+  padding: 1rem 1.4rem;
 }
 .d-label {
   font-family: 'JetBrains Mono', ui-monospace, monospace;
@@ -218,11 +195,11 @@ function rgb(c) { return colorMap[c] || colorMap.sky }
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.85);
-  margin-bottom: 0.45rem;
+  margin-bottom: 0.4rem;
 }
 .d-text {
   margin: 0;
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   line-height: 1.25;
   font-weight: 600;
   letter-spacing: -0.015em;

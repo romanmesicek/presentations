@@ -11,10 +11,8 @@ favicon: /favicon.svg
 
 <!-- Slide 1: Titel -->
 
-<ExtinctionOverlay :opacity="0.25" />
-
 <CoverSlide
-  eyebrow="Intermezzo · Marketing Club Österreich"
+  eyebrow=""
   title="Nachhaltige Entscheidungsgrundlagen für **KI-Projekte**"
   subtitle="Fünf Fragen, bevor KI im Marketing zur Default-Antwort wird."
   speaker="Roman Mesicek"
@@ -39,7 +37,7 @@ color: dark
     { value: '+48%', label: 'Googles Emissionen seit 2019, trotz 6× Effizienzsteigerung.', source: 'Google Environmental Report, 2024' },
   ]"
   lead="Verantwortung lässt sich **nicht delegieren.** Auch nicht an die **Maschine.**"
-  tail="Drei Hebel der Nachhaltigkeit: Verhalten, Gestaltung, Produktion. KI sitzt in allen dreien, meistens als Reflex, selten als Entscheidung."
+  tail="Drei Hebel der Nachhaltigkeit: Verhalten, Gestaltung, Produktion. Im Marketing sitzt KI in jedem davon, meist als Reflex, selten als Entscheidung."
 />
 
 ---
@@ -68,7 +66,7 @@ color: dark
   :questions="[
     { tag: 'Notwendigkeit', q: 'Lösen wir ein echtes Problem, oder schaffen wir einen Bedarf, weil KI da ist?' },
     { tag: 'Alternativen', q: 'Welche Routine schalten wir ab, wenn KI dazukommt, oder kommt sie obendrauf?' },
-    { tag: 'Mehrwert', q: 'Misst unser KPI Konsum, oder nur Produktion?' },
+    { tag: 'Mehrwert', q: 'Messen wir Konsum oder nur Produktion?' },
   ]"
 />
 
@@ -84,12 +82,13 @@ color: dark
   name="Suffizienz"
   position="01"
   color="emerald"
+  slogan="Was produziert ihr, das niemand liest?"
   brand="Jasper, Copy.ai, Writesonic"
   note="Generative-Content-Plattformen verkaufen *Unlimited Generations*-Tarife. Der Tarif belohnt **Output-Menge,** nicht Output-Qualität."
-  stat="Slop"
-  statLabel="„KI-Slop" beschreibt KI-generierten Content ohne Konsumäquivalent. SEO-Spam, Newsletter, Social Posts steigen schneller als die Aufmerksamkeit, die sie konsumieren könnte."
-  statSource="Industry term, verbreitet ab 2024"
-  discussion="Welcher Anteil eures KI-generierten Contents wird tatsächlich gelesen, und nicht nur produziert?"
+  stat="3.006"
+  statLabel="AI-Content-Farm-Sites in 16 Sprachen, mit 300 bis 500 neuen pro Monat. NewsGuard nennt das selbst „AI Slop“."
+  statSource="NewsGuard AI Tracking Center, Stand 17.03.2026"
+  discussion="Wer von euch hat einen KI-generierten Newsletter veröffentlicht, den sich danach niemand intern durchgelesen hat, auch nicht der oder die Verantwortliche?"
 />
 
 ---
@@ -102,12 +101,12 @@ color: dark
 <ScopeSlide
   letter="C"
   name="Carbon"
-  kicker="Was verbraucht sie?"
+  kicker="Was verbraucht KI?"
   position="02"
   color="teal"
-  lead="Der Marketing-Footprint einer KI ist **real,** aber meistens **unsichtbar**, verteilt auf tausende Modell-Calls pro Kampagne."
+  lead="Der Marketing-Footprint einer KI ist **real,** aber meistens **unsichtbar**, verteilt auf tausende KI-Berechnungen pro Kampagne."
   :questions="[
-    { tag: 'Verbrauch', q: 'Wie viele Modell-Calls hängen an einer Kampagne, und welche Modelle?' },
+    { tag: 'Verbrauch', q: 'Wie viele KI-Berechnungen hängen an einer Kampagne, und welche Modelle?' },
     { tag: 'Energiemix', q: 'Wo läuft das Modell? AWS Frankfurt? Azure US-East? Mit welchem Strommix?' },
     { tag: 'Verhältnis', q: 'Steht der Footprint im Verhältnis zum messbaren Marketing-Effekt?' },
   ]"
@@ -125,12 +124,13 @@ color: dark
   name="Carbon"
   position="02"
   color="teal"
-  brand="Programmatic via DV360, The Trade Desk · Klaviyo Predictive"
-  note="Real-Time-Bidding ist ein **Modell-Kaskaden-System.** Targeting, Pricing, Creative-Wahl, Brand Safety. Jeder Bid durchläuft mehrere Inferenzen, oft zehntausendmal pro Sekunde. Personalisation-Engines wie Klaviyo skoren Kund:innen kontinuierlich."
-  stat="Mio."
-  statLabel="Modell-Calls pro Kampagne sind die Regel, nicht die Ausnahme. Gemessen wird der Bid-Preis. Gemessen wird selten der Energieverbrauch."
-  statSource="The Trade Desk Engineering Blog, 2024 · IAB Tech Lab"
-  discussion="Wie viele Modell-Calls hängen an einer einzigen eurer Anzeigen, und wer bei euch hat das je gemessen?"
+  slogan="Was kostet euer Marketing wirklich?"
+  brand="The Trade Desk · DV360 · Klaviyo Predictive"
+  note="Real-Time-Bidding ist eine **KI-Kaskade.** Jeder Bid durchläuft mehrere KI-Berechnungen für Targeting, Preis, Creative-Wahl und Brand Safety. Klaviyo skort Kund*innen parallel weiter."
+  stat="13 Mio./Sek."
+  statLabel="Werbeeindrücke wertet allein The Trade Desk pro Sekunde aus, jede mit tausenden Signalen für KI-Bid-Entscheidungen. Eine Plattform. Meta, Google, Amazon laufen parallel."
+  statSource="The Trade Desk, Kokai Launch, 06.06.2023"
+  discussion="Wie viele KI-Berechnungen hängen an einer einzigen eurer Anzeigen, und wer bei euch hat das je gemessen?"
 />
 
 ---
@@ -148,9 +148,9 @@ color: dark
   color="sky"
   lead="Effizienz für **wen?** Marketing-KI verschiebt nicht nur Arbeit. Sie verschiebt **Wert.**"
   :questions="[
-    { tag: 'Nutzen', q: 'Schöpfen wir Wert für die Kund:innen, oder ersetzen wir Arbeit, die wir früher bezahlt haben?' },
+    { tag: 'Nutzen', q: 'Schöpfen wir Wert für die Kund*innen, oder ersetzen wir Arbeit, die wir früher bezahlt haben?' },
     { tag: 'Herkunft', q: 'Wessen Texte, Bilder, Stimmen stecken in den Trainingsdaten unserer Tools?' },
-    { tag: 'Verteilung', q: 'Wer profitiert vom Effizienzgewinn, wir, der Anbieter oder die Kund:innen?' },
+    { tag: 'Verteilung', q: 'Wer profitiert vom Effizienzgewinn, wir, der Anbieter oder die Kund*innen?' },
   ]"
 />
 
@@ -166,12 +166,13 @@ color: dark
   name="Outcomes"
   position="03"
   color="sky"
+  slogan="Wem helft ihr, und wen ersetzt ihr?"
   brand="Qualtrics Edge Audiences · Yabble (YouGov) · Toluna HarmonAIze"
-  note="Synthetische Respondenten ersetzen menschliche Befragte in der Marktforschung. Studien zeigen bis zu **90% Übereinstimmung** mit echten Survey-Daten."
-  stat="73%"
-  statLabel="der Marktforscher:innen haben synthetische Respondenten mindestens einmal eingesetzt, ein Drittel davon binnen der letzten 30 Tage."
-  statSource="Qualtrics, State of Research Report, 2025"
-  discussion="Wenn synthetische Personas 90% Übereinstimmung erreichen, wer braucht dann noch Marktforscher:innen, und was geht dabei verloren?"
+  note="Synthetische Respondenten ersetzen menschliche Befragte. Studien zeigen bis zu **90% Übereinstimmung** mit echten Survey-Daten. Rund **zwei Drittel** der Marktforscher*innen haben sie 2025 getestet."
+  stat="+40%"
+  statLabel="Datenqualitäts-Bedenken in der Branche binnen eines Jahres, ausgelöst durch synthetische Respondenten. Verbreitung ohne Validierung."
+  statSource="GRIT Insights Practice Report, Greenbook 2025 · Verbreitung: Qualtrics State of Research, 2025"
+  discussion="Wenn ihr morgen Persona-Insights aus synthetischen Respondenten kauft, würdet ihr es eurer eigenen Kundenberatung sagen, oder nicht?"
 />
 
 ---
@@ -207,11 +208,12 @@ color: dark
   name="Power"
   position="04"
   color="orange"
-  brand="Meta Advantage+ Lookalike · Google Performance Max · Demand Gen"
+  slogan="Wer entscheidet, wenn ihr nicht entscheidet?"
+  brand="Meta Advantage+ · Google Performance Max"
   note="Black-Box-Targeting: Du gibst Budget und Conversion-Ziel frei. Die Plattform entscheidet **autonom** über Audience, Placement, Bid und Creative-Mix. Berichts-Granularität sinkt mit jeder Produkt-Generation."
-  stat="Lock-in"
-  statLabel="Audience-Modelle, Conversion-Lernkurven und Pixel-Historie sind nicht portabel. Wechselkosten sind nicht der Tarif, sondern der verlorene Lerneffekt."
-  statSource="Meta for Business Help, 2024 · Google Ads Documentation"
+  stat="6 + 50"
+  statLabel="Sechs Wochen Ramp-up empfiehlt Google für Performance Max. Meta Advantage+ braucht 50 Conversions pro Ad Set in 7 Tagen. Beides setzt bei Plattform- oder Pixel-Wechsel auf Null zurück."
+  statSource="Google Ads Help, 2026 · Meta Business Help Center"
   discussion="Wie viel Budget gebt ihr in Systemen aus, deren Targeting-Logik ihr nicht erklären könnt, und wie lange noch?"
 />
 
@@ -248,12 +250,13 @@ color: dark
   name="Endurance"
   position="05"
   color="violet"
-  brand="Lil Miquela · Aitana Lopez · synthetische Brand-Influencer:innen"
-  note="Virtuelle Influencer:innen mit Millionen Follower:innen. Bislang ohne Pflicht zur Offenlegung. **Ab 2026 ändert sich das:** EU AI Act Art. 50 verlangt sichtbare Kennzeichnung von KI-generierten Personen."
-  stat="2026"
+  slogan="Was bleibt von euch, wenn die Tools weg sind?"
+  brand="Lil Miquela · Aitana Lopez · synthetische Brand-Influencer*innen"
+  note="Virtuelle Influencer*innen mit Millionen Follower*innen. Bislang ohne Pflicht zur Offenlegung. **Ab 02.08.2026 ändert sich das:** EU AI Act Art. 50 verlangt sichtbare Kennzeichnung von KI-generierten Personen."
+  stat="02.08.2026"
   statLabel="EU AI Act Transparenzpflichten greifen. KI-generierte Bilder, Videos und Audio von Personen müssen erkennbar als solche markiert werden."
   statSource="Verordnung (EU) 2024/1689, Art. 50"
-  discussion="Wenn ein virtueller Influencer morgen offengelegt werden muss, was tut das mit der Glaubwürdigkeit eurer Kampagne?"
+  discussion="Welche eurer Kampagnen läuft am 2. August 2026 Gefahr, gegen Art. 50 zu verstoßen?"
 />
 
 ---
@@ -261,23 +264,36 @@ layout: default
 color: dark
 ---
 
-<!-- Slide 14: Synthese + Schluss-Diskussion -->
+<!-- Slide 14: Mutprobe -->
+
+<MutprobeSlide
+  :rows="[
+    { phase: 'Konzept', human: 90, ai: 10 },
+    { phase: 'Recherche', human: 20, ai: 80 },
+    { phase: 'Strukturvorschlag', human: 50, ai: 50 },
+    { phase: 'Visuals', human: 10, ai: 90 },
+    { phase: 'Code', human: 0, ai: 100 },
+    { phase: 'Review', human: 70, ai: 30 },
+  ]"
+/>
+
+<!--
+Tonspur: SCOPE selbst ist wissenschaftlich entwickelt. Paper: Mesicek, R. (2026). SCOPE: A decision framework for evaluating the sustainability and ethics of AI adoption. SocArXiv. https://doi.org/10.31235/osf.io/anjt9_v1
+
+Hinter dem Konzept stecken Literatur-Review bestehender AI-Ethics- und Sustainability-Frameworks, Hochschularbeit mit Stakeholder*innen und Probe-Runs in laufenden Projekten. Die Folien sind teils mit KI entstanden, das Konzept dahinter ist es nicht.
+-->
+
+---
+layout: default
+color: dark
+---
+
+<!-- Slide 15: Synthese + Schluss-Diskussion -->
 
 <SynthesisSlide
-  kicker="Synthese"
+  kicker="Synthese & Fragen"
   title="Tue Gutes, auch wenn niemand zuschaut."
-  bridge="Verantwortung lässt sich nicht delegieren. Drei Hebel: **Verhalten, Gestaltung, Produktion.** KI sitzt in allen dreien."
-  :scope="[
-    { letter: 'S', name: 'Suffizienz', word: 'Brauchen wir es?' },
-    { letter: 'C', name: 'Carbon', word: 'Was kostet es?' },
-    { letter: 'O', name: 'Outcomes', word: 'Wer profitiert?' },
-    { letter: 'P', name: 'Power', word: 'Wer kontrolliert?' },
-    { letter: 'E', name: 'Endurance', word: 'Hält es?' },
-  ]"
-  :questions="[
-    'Welche eurer KI-Routinen würdet ihr morgen abschalten, wenn der Strompreis sich verzehnfacht?',
-    'Wo zieht ihr in eurer Marken-DNA die Linie zwischen „KI hilft" und „KI darf das übernehmen"?',
-  ]"
+  bridge="Reinhard und Max haben heute gefragt: **„What happened to (y)our critical thinking?“**"
 />
 
 ---
@@ -285,7 +301,7 @@ layout: default
 color: dark
 ---
 
-<!-- Slide 15: Vielen Dank -->
+<!-- Slide 16: Vielen Dank -->
 
 <ClosingSlide
   photo="/images/roman.webp"

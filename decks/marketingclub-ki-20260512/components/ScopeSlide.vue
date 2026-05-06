@@ -39,8 +39,6 @@ function rgb(c) { return colorMap[c] || colorMap.sky }
       </div>
       <div class="rail-bot">
         <div class="kicker-label" v-if="kicker">{{ kicker }}</div>
-        <div class="name">{{ name }}</div>
-        <div class="pos" v-if="position">{{ position }} / 05</div>
       </div>
     </aside>
 
@@ -100,25 +98,10 @@ function rgb(c) { return colorMap[c] || colorMap.sky }
 .letters li.me { opacity: 1; }
 
 .kicker-label {
-  font-size: 0.7rem;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
-  font-weight: 600;
-  opacity: 0.75;
-  margin-bottom: 0.25rem;
-}
-.name {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: -0.01em;
-  line-height: 1.15;
-}
-.pos {
-  margin-top: 0.6rem;
-  font-size: 0.65rem;
-  font-family: 'JetBrains Mono', ui-monospace, monospace;
-  opacity: 0.6;
-  letter-spacing: 0.08em;
+  line-height: 1.2;
 }
 
 .body {

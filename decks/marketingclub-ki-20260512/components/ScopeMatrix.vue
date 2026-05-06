@@ -5,7 +5,7 @@
  */
 const dims = [
   { letter: 'S', name: 'Suffizienz', kicker: 'Brauchen wir KI?', color: '#059669', trio: ['Notwendigkeit', 'Alternativen', 'Mehrwert'] },
-  { letter: 'C', name: 'Carbon',     kicker: 'Was verbraucht sie?', color: '#0d9488', trio: ['Energie', 'Wasser', 'Emissionen'] },
+  { letter: 'C', name: 'Carbon',     kicker: 'Was verbraucht KI?', color: '#0d9488', trio: ['Energie', 'Wasser', 'Emissionen'] },
   { letter: 'O', name: 'Outcomes',   kicker: 'Wer profitiert?',    color: '#0284c7', trio: ['Verteilung', 'Gerechtigkeit', 'Risiken'] },
   { letter: 'P', name: 'Power',      kicker: 'Wer kontrolliert?',  color: '#ea580c', trio: ['Datenhoheit', 'Abhängigkeit', 'Kontrolle'] },
   { letter: 'E', name: 'Endurance',  kicker: 'Hält es?',           color: '#7c3aed', trio: ['Regulierung', 'Kosten', 'Kompetenz'] },

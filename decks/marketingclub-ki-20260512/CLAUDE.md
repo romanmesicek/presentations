@@ -65,25 +65,26 @@ SCOPE-Frame-Folien geben die abstrakte Dimension (Lead + 3 Reflexions-Tags). SCO
 | P Power | Orange-600 | `#ea580c` | `#fdba74` |
 | E Endurance | Violet-600 | `#7c3aed` | `#c4b5fd` |
 
-## Slide-Struktur (15 Slides, ~28 Min. + Puffer)
+## Slide-Struktur (16 Slides, ~28 Min. + Puffer)
 
 | # | Titel | Komponente | Inhalt |
 |---|-------|------------|--------|
-| 1 | Cover | `CoverSlide` + `ExtinctionOverlay` | Intermezzo · Marketing Club Österreich, 12. Mai 2026 |
-| 2 | Verantwortung statt Reflex | `StatSlide` (red rail) | 10× / +48%, Anschluss an Reinhards „drei Hebel" |
+| 1 | Cover | `CoverSlide` | Intermezzo · Marketing Club Österreich, 12. Mai 2026 |
+| 2 | Verantwortung statt Reflex | `StatSlide` (red rail) | 10× / +48%, Tail mit Anschluss an Reinhards drei Hebel + Marketing-KI-Konnex |
 | 3 | SCOPE Übersicht | `ScopeMatrix` | 5 Dimensionen mit Dreiklang-Stichwörtern |
 | 4 | S Suffizienz Frame | `ScopeSlide` | Lead + 3 Reflexions-Tags (Notwendigkeit / Alternativen / Mehrwert) |
-| 5 | S Beispiel + Diskussion | `ExampleSlide` | Jasper, Copy.ai, Writesonic — „Slop"-Stat — 1 Frage |
+| 5 | S Beispiel + Diskussion | `ExampleSlide` | Slogan + Jasper, Copy.ai, Writesonic + NewsGuard 3.006 + Newsletter-Frage |
 | 6 | C Carbon Frame | `ScopeSlide` | 3 Reflexions-Tags (Verbrauch / Energiemix / Verhältnis) |
-| 7 | C Beispiel + Diskussion | `ExampleSlide` | Programmatic + Klaviyo Predictive — „Mio. Modell-Calls" — 1 Frage |
+| 7 | C Beispiel + Diskussion | `ExampleSlide` | Slogan + The Trade Desk + Kokai 13 Mio./Sek. + Modell-Calls-Frage |
 | 8 | O Outcomes Frame | `ScopeSlide` | 3 Reflexions-Tags (Nutzen / Herkunft / Verteilung) |
-| 9 | O Beispiel + Diskussion | `ExampleSlide` | Qualtrics, Yabble, Toluna — 73% — 1 Frage |
+| 9 | O Beispiel + Diskussion | `ExampleSlide` | Slogan + Qualtrics, Yabble, Toluna + GRIT +40% + Kundenberatungs-Frage |
 | 10 | P Power Frame | `ScopeSlide` | 3 Reflexions-Tags (Plattform / Portabilität / Letztwort) |
-| 11 | P Beispiel + Diskussion | `ExampleSlide` | Meta Advantage+, Google PMax — Lock-in — 1 Frage |
+| 11 | P Beispiel + Diskussion | `ExampleSlide` | Slogan + Meta Advantage+, Google PMax + 6 Wochen / 50 Conversions |
 | 12 | E Endurance Frame | `ScopeSlide` | 3 Reflexions-Tags (Qualität / Abhängigkeit / Regulierung) |
-| 13 | E Beispiel + Diskussion | `ExampleSlide` | Lil Miquela, Aitana Lopez — EU AI Act 2026 — 1 Frage |
-| 14 | Synthese + Schluss-Diskussion | `SynthesisSlide` | „Tue Gutes, auch wenn niemand zuschaut." + 5-Wort-Recap + 2 Diskussionsfragen |
-| 15 | Vielen Dank | `ClosingSlide` | Foto, Name, Academy, Icons, QR, Skills-Pitch |
+| 13 | E Beispiel + Diskussion | `ExampleSlide` | Slogan + Lil Miquela, Aitana Lopez + EU AI Act 02.08.2026 |
+| 14 | Mutprobe | `MutprobeSlide` | „Diese Folien sind teilweise mit KI entstanden." 6-Zeilen-Tabelle Mensch:KI, Tonspur SCOPE-Paper |
+| 15 | Synthese & Fragen | `SynthesisSlide` | „Tue Gutes, auch wenn niemand zuschaut." + Hosts-Frage „critical thinking" + farbiges „SCOPE ist eine Antwort." (jeder Buchstabe in seiner Dimensionsfarbe). Dient gleichzeitig als Q&A-Backdrop. |
+| 16 | Vielen Dank | `ClosingSlide` | Foto, Name, Academy, Icons, QR, Skills-Pitch |
 
 ### SCOPE-Übersicht (Slide 3): Dreiklang-Stichwörter
 
@@ -97,43 +98,76 @@ Auf der Übersichtsfolie stehen keine Fragen, nur Begriffserklärungen als Dreik
 | P Power | Datenhoheit, Abhängigkeiten, Kontrolle. |
 | E Endurance | Regulierung, Kosten, Kompetenz. |
 
-### Synthese (Slide 14): 5-Wort-Recap
+### Eskalations-Slogans (Beispiel-Folien 5/7/9/11/13)
 
-Verdichtung der 5 Buchstaben für den Schluss-Bogen:
+Auf jeder Beispiel-Folie steht der Slogan als Headline (`slogan` prop), die konkrete Diskussionsfrage darunter. Die Slogans bilden eine Eskalations-Treppe von Selbstbeobachtung bis Substanz:
 
-| Dimension | Recap-Wort |
-|-----------|------------|
-| S | „Brauchen wir es?" |
-| C | „Was kostet es?" |
-| O | „Wer profitiert?" |
-| P | „Wer kontrolliert?" |
-| E | „Hält es?" |
+| Dimension | Slogan-Headline |
+|-----------|-----------------|
+| S | „Was produziert ihr, das niemand liest?" |
+| C | „Was kostet euer Marketing wirklich?" |
+| O | „Wem helft ihr, und wen ersetzt ihr?" |
+| P | „Wer entscheidet, wenn ihr nicht entscheidet?" |
+| E | „Was bleibt von euch, wenn die Tools weg sind?" |
+
+### Synthese (Slide 15): Q&A-Backdrop
+
+Slide 15 dient gleichzeitig als Synthese und Q&A-Folie. Aufbau in drei Schichten:
+
+1. **Header** — Kicker „Synthese & Fragen", Titel „Tue Gutes, auch wenn niemand zuschaut." (mit Indigo-Klammer links).
+2. **Hosts-Frage** — „Reinhard und Max haben heute gefragt: ‚What happened to (y)our critical thinking?'" (1.5rem, ohne linken Strich, Hosts-Frage in Indigo-Akzent).
+3. **Antwort** — riesig (4rem, font-weight 800): die fünf SCOPE-Buchstaben **S C O P E**, jeder in seiner Dimensionsfarbe (Emerald, Teal, Sky, Orange, Violet als Accent-Töne), gefolgt von „ist eine Antwort." in Weiß.
+
+Keine separate SCOPE-Liste mehr (die steht auf Slide 3 und kommt nicht doppelt). Keine Diskussions-Box. Die Folie bleibt während der gesamten Q&A stehen.
+
+### Mutprobe (Slide 14): Selbst-Anwendung von SCOPE
+
+Vor der Synthese eine Selbst-Exposition: Mensch-zu-KI-Verhältnis pro Phase der Folien-Erstellung. Antwort des Sprechers auf den vom Reviewer geforderten Killer-Einwand „du predigst nach außen, ohne dich selbst zu prüfen". 6 Zeilen, eckige horizontale Bars, Indigo-Akzent. **Interaktion:** Initial sind nur Phasen + leere Bar-Tracks zu sehen. Plenum schätzt Konzept, dann Klick → Auflösung. Sechs Klicks für sechs Phasen.
+
+| Phase | Mensch : KI |
+|-------|-------------|
+| Konzept | 90 : 10 |
+| Recherche | 20 : 80 |
+| Strukturvorschlag | 50 : 50 |
+| Visuals | 10 : 90 |
+| Code | 0 : 100 |
+| Review | 70 : 30 |
+
+Tonspur (Speaker Notes): SCOPE selbst ist wissenschaftlich entwickelt. Paper: Mesicek, R. (2026). *SCOPE: A decision framework for evaluating the sustainability and ethics of AI adoption*. SocArXiv. https://doi.org/10.31235/osf.io/anjt9_v1. Hinter dem Konzept stecken Literatur-Review bestehender AI-Ethics- und Sustainability-Frameworks, Hochschularbeit mit Stakeholder:innen und Probe-Runs in laufenden Projekten.
 
 ## Komponenten
 
-### `CoverSlide`, `ScopeMatrix`, `ScopeSlide`, `StatSlide`, `QuestionSlide`, `ClosingSlide`
+### `CoverSlide`, `ScopeMatrix`, `ScopeSlide`, `StatSlide`, `ClosingSlide`
 
-Aus `kreativwirtschaft-ki-20260423` übernommen. `QuestionSlide` wird in dieser Version nicht mehr genutzt (Diskussion läuft über `ExampleSlide` und `SynthesisSlide`).
+Aus `kreativwirtschaft-ki-20260423` übernommen. Slide 1 ist bewusst ohne ExtinctionOverlay (Cold Open ohne Auflösung wäre rhetorisch unsauber).
 
-### `ExampleSlide` (neu)
+### `ExampleSlide` (überarbeitet)
 
-Beispiel-Folie für jede SCOPE-Dimension. Layout: Color-Rail links (SCOPE-Farbe) mit Letter und Position, Body rechts mit Marken-Headline, optionalem Stat-Block (Wert + Label + Quelle, vertikale Akzent-Linie) und Diskussions-Box am unteren Rand (white-on-SCOPE-color).
+Beispiel-Folie für jede SCOPE-Dimension. Layout: Color-Rail links (SCOPE-Farbe) mit Letter-Badge (klein, 2.6rem statt 6rem) und Position, Body rechts mit **Eskalations-Slogan als Headline**, Marken-Label, optionalem Stat-Block (Wert + Label + Quelle, vertikale Akzent-Linie) und Diskussions-Box am unteren Rand (white-on-SCOPE-color).
 
-Props: `letter`, `name`, `position`, `color`, `brand`, `note?`, `stat?`, `statLabel?`, `statSource?`, `discussion`.
+Der frühere „Riesen-Buchstabe" wurde zum Badge verkleinert, weil der Buchstabe auf den Frame-Slides bereits dominiert. Auf Beispiel-Folien rückt jetzt die Marke (1.55rem) und vor allem der Slogan (2.15rem) optisch nach vorn.
 
-### `SynthesisSlide` (neu)
+Props: `letter`, `name`, `position`, `color`, `slogan?`, `brand`, `note?`, `stat?`, `statLabel?`, `statSource?`, `discussion`.
 
-Schluss-Folie vor der Kontaktfolie. Header mit Indigo-Klammer und Kernaussage, 5-Spalten-Grid mit SCOPE-Recap (jede Spalte mit Buchstaben-eigener vertikaler Akzent-Linie), Brücke-Absatz, Diskussions-Box am unteren Rand mit zwei nummerierten Schluss-Fragen.
+### `MutprobeSlide` (neu, Slide 14)
 
-Props: `kicker`, `title`, `bridge`, `scope[{letter,name,word}]`, `questions[]`.
+Selbst-Check des Sprechers: Mensch-zu-KI-Verhältnis pro Phase der Folien-Erstellung. Header mit Indigo-Klammer und Kernsatz, Legende (Mensch / KI), Tabelle mit 6 Zeilen, in jeder Zeile Phase + horizontaler Bar (eckig, Mensch in Weiß-55%, KI in Indigo-400) + Verhältnis-Zahl im Mono-Font.
 
-### `ExtinctionOverlay` (Slide 1)
+Props: `kicker`, `headline`, `subheadline`, `rows[{phase, human, ai}]`.
 
-Angepasste Kopie von `diakonie-greenai-20260224`:
-- Farben: Indigo (`#818cf8`) statt Orange für Labels und Erklärungstitel
-- Erklärungstext: Hellgrau (`#d1d5db`) statt Schwarz
-- Text: „Diese Arten sind ausgestorben." (vereinfacht, keine Em-Dashes)
-- „Warum diese Geister?" Titel entfernt
+### `SynthesisSlide` (Slide 15, Q&A-Backdrop)
+
+Schluss-Folie vor der Kontaktfolie, dient gleichzeitig als Q&A-Backdrop. Header mit Indigo-Klammer und Titel, Hosts-Frage als Mittelteil (ohne linken Strich), riesige Antwort-Zeile mit „**S C O P E** ist eine Antwort." — jeder Buchstabe in seiner Dimensionsfarbe.
+
+Props: `kicker`, `title`, `bridge`. SCOPE-Letter-Farben sind im Component hardcoded.
+
+### `ExtinctionOverlay` (ungenutzt)
+
+Angepasste Kopie von `diakonie-greenai-20260224`. Datei bleibt im Komponenten-Ordner für mögliche spätere Verwendung, ist auf Slide 1 jedoch entfernt (Cold-Open-Risiko).
+
+### `QuestionSlide` (ungenutzt)
+
+Aus Vorlage übernommen, in dieser Version nicht eingesetzt (Diskussion läuft über `ExampleSlide`, `MutprobeSlide` und `SynthesisSlide`).
 
 ## CSS-Overrides (styles/index.css)
 
@@ -154,31 +188,30 @@ Angepasste Kopie von `diakonie-greenai-20260224`:
 |---|---|
 | KI-Anfrage = 10× Google-Suche | de Vries, A. (2023). The growing energy footprint of AI. Joule. |
 | Google: +48% Emissionen trotz 6× Effizienz | Google Environmental Report, 2024 |
-| Drei Hebel: Verhalten, Gestaltung, Produktion | Tagespräsentation Reinhard Herok / Max Niederschick |
 
-### SCOPE-Beispiel-Folien
+### SCOPE-Beispiel-Folien (Stats nach Recherche-Review)
 
-| # | Dimension | Markenbeispiele | Cluster (aus Strang A) |
-|---|---|---|---|
-| 5 | S Suffizienz | Jasper, Copy.ai, Writesonic | 3 — Content Creation |
-| 7 | C Carbon | DV360, The Trade Desk, Klaviyo Predictive | 6, 7 — Programmatic + Personalisierung |
-| 9 | O Outcomes | Qualtrics Edge Audiences, Yabble (YouGov), Toluna HarmonAIze | 1 — Insights & Market Research (Synthetic Respondents) |
-| 11 | P Power | Meta Advantage+ Lookalike, Google Performance Max, Demand Gen | 2, 6 — Segmentierung + Programmatic |
-| 13 | E Endurance | Lil Miquela, Aitana Lopez, EU AI Act Art. 50 | 11 — Synthetic Media |
+| # | Dimension | Markenbeispiele | Stat | Quelle |
+|---|---|---|---|---|
+| 5 | S Suffizienz | Jasper, Copy.ai, Writesonic | 3.006 AI-Content-Farm-Sites | NewsGuard AI Tracking Center, Stand 17.03.2026 |
+| 7 | C Carbon | The Trade Desk, DV360, Klaviyo Predictive | 13 Mio./Sek. (Werbeeindrücke) | The Trade Desk, Kokai Launch, 06.06.2023 |
+| 9 | O Outcomes | Qualtrics Edge Audiences, Yabble (YouGov), Toluna HarmonAIze | +40% Datenqualitäts-Bedenken YoY | GRIT Insights Practice Report, Greenbook 2025 (+ Verbreitung Qualtrics 2025) |
+| 11 | P Power | Meta Advantage+, Google Performance Max | 6 + 50 (Wochen Ramp-up + Conversions) | Google Ads Help, 2026 · Meta Business Help Center |
+| 13 | E Endurance | Lil Miquela, Aitana Lopez, EU AI Act Art. 50 | 02.08.2026 (Stichtag) | Verordnung (EU) 2024/1689, Art. 50 |
 
-Recherche-Grundlage: `sources/marketingclub-ki-20260512/2026-05-06_A_marketing-ki-use-cases.md` (Strang A, Bestandsaufnahme) und `2026-05-06_B_marketing-ki-scope-schnittstellen.md` (Strang B, SCOPE-Bewertung).
+Recherche-Grundlage: `sources/marketingclub-ki-20260512/2026-05-06_A_marketing-ki-use-cases.md` (Strang A, Bestandsaufnahme), `2026-05-06_B_marketing-ki-scope-schnittstellen.md` (Strang B, SCOPE-Bewertung) und `review-claude-design.md` (Review mit Stats-Verifikation).
 
-### Synthese (Slide 14)
+### Synthese (Slide 15)
 
-Stress-Test-Frage „Strompreis × 10" entlehnt aus Strang B, Sufficiency-Block, Frage 5.
+Keine separate Diskussions-Box mehr. Die SCOPE-Fragen sind dieselben wie auf Slide 3, damit der Bogen bewusst geschlossen wird. Der Schluss ist die Hosts-Frage als rhetorische Klammer.
 
 ## QR-Code
 
-Ein QR-Code auf Slide 15: `sustainability-skills.academy/start`
+Ein QR-Code auf Slide 16: `sustainability-skills.academy/start`
 
 Datei: `public/images/qr-skills-academy.png` (weisse Punkte auf transparentem Grund, generiert vom User).
 
-## Kontaktdaten (Slide 15)
+## Kontaktdaten (Slide 16)
 
 - **Institution:** Sustainability Skills Academy
 - **E-Mail:** roman.mesicek@sustainability-skills.at
@@ -199,19 +232,20 @@ npm run dev      # http://localhost:3030
 
 ```text
 marketingclub-ki-20260512/
-├── slides.md                  # 15 Slides
+├── slides.md                  # 16 Slides
 ├── package.json
 ├── CLAUDE.md                  # Diese Datei
 ├── components/
 │   ├── ClosingSlide.vue
 │   ├── CoverSlide.vue
-│   ├── ExampleSlide.vue       # Neu: Marken-Beispiel + Diskussionsfrage pro SCOPE
-│   ├── ExtinctionOverlay.vue  # Schwebende Tier-Animationen (Indigo statt Orange)
-│   ├── QuestionSlide.vue      # Aus Vorlage übernommen, derzeit ungenutzt
+│   ├── ExampleSlide.vue       # Beispiel-Folie mit Slogan-Headline und kleinem Letter-Badge
+│   ├── ExtinctionOverlay.vue  # Vorhanden, aber auf Slide 1 nicht mehr genutzt
+│   ├── MutprobeSlide.vue      # Neu: Mensch:KI-Tabelle für Selbst-Anwendung von SCOPE
+│   ├── QuestionSlide.vue      # Aus Vorlage übernommen, ungenutzt
 │   ├── ScopeMatrix.vue        # SCOPE-Übersicht
 │   ├── ScopeSlide.vue         # SCOPE-Frame-Folien (Lead + 3 Reflexions-Tags)
 │   ├── StatSlide.vue
-│   └── SynthesisSlide.vue     # Neu: Schluss-Folie mit 5-Wort-Recap + 2 Diskussionsfragen
+│   └── SynthesisSlide.vue     # Schluss-Folie mit 5-Wort-Recap + Hosts-Frage + 2 Diskussionsfragen
 ├── styles/
 │   └── index.css              # CSS-Overrides (Footer, Highlight-Farbe, Links, Spacing)
 └── public/

@@ -19,7 +19,7 @@ defineProps({
   <div class="cover">
     <aside class="rail">
       <div class="top">
-        <div class="eyebrow">{{ eyebrow }}</div>
+        <div class="eyebrow" v-if="eyebrow">{{ eyebrow }}</div>
       </div>
       <div class="bot">
         <div class="speaker">{{ speaker }}</div>
