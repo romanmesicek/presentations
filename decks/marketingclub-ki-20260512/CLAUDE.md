@@ -75,11 +75,11 @@ SCOPE-Frame-Folien geben die abstrakte Dimension (Lead + 3 Reflexions-Tags). SCO
 | 4 | S Suffizienz Frame | `ScopeSlide` | Lead + 3 Reflexions-Tags (Notwendigkeit / Alternativen / Mehrwert) |
 | 5 | S Beispiel + Diskussion | `ExampleSlide` | Slogan + Jasper, Copy.ai, Writesonic + NewsGuard 3.006 + Newsletter-Frage |
 | 6 | C Carbon Frame | `ScopeSlide` | 3 Reflexions-Tags (Verbrauch / Energiemix / Verhältnis) |
-| 7 | C Beispiel + Diskussion | `ExampleSlide` | Slogan + The Trade Desk + Kokai 13 Mio./Sek. + Modell-Calls-Frage |
+| 7 | C Beispiel + Diskussion | `ExampleSlide` | Slogan + The Trade Desk, DV360, Amazon DSP + Kokai 13 Mio./Sek. + Modell-Calls-Frage |
 | 8 | O Outcomes Frame | `ScopeSlide` | 3 Reflexions-Tags (Nutzen / Herkunft / Verteilung) |
-| 9 | O Beispiel + Diskussion | `ExampleSlide` | Slogan + Qualtrics, Yabble, Toluna + GRIT +40% + Kundenberatungs-Frage |
+| 9 | O Beispiel + Diskussion | `ExampleSlide` | Slogan + Qualtrics, Yabble, Toluna + Qualtrics 73 % Adoption + Kundenberatungs-Frage |
 | 10 | P Power Frame | `ScopeSlide` | 3 Reflexions-Tags (Plattform / Portabilität / Letztwort) |
-| 11 | P Beispiel + Diskussion | `ExampleSlide` | Slogan + Meta Advantage+, Google PMax + 6 Wochen / 50 Conversions |
+| 11 | P Beispiel + Diskussion | `ExampleSlide` | Slogan + Meta Advantage+, Google PMax + 50 Conversions in 7 Tagen (+ 6 Wochen Ramp-up) |
 | 12 | E Endurance Frame | `ScopeSlide` | 3 Reflexions-Tags (Qualität / Abhängigkeit / Regulierung) |
 | 13 | E Beispiel + Diskussion | `ExampleSlide` | Slogan + Lil Miquela, Aitana Lopez + EU AI Act 02.08.2026 |
 | 14 | Mutprobe | `MutprobeSlide` | „Diese Folien sind teilweise mit KI entstanden." 6-Zeilen-Tabelle Mensch:KI, Tonspur SCOPE-Paper |
@@ -104,11 +104,11 @@ Auf jeder Beispiel-Folie steht der Slogan als Headline (`slogan` prop), die konk
 
 | Dimension | Slogan-Headline |
 |-----------|-----------------|
-| S | „Was produziert ihr, das niemand liest?" |
+| S | „Wo endet euer Content?" |
 | C | „Was kostet euer Marketing wirklich?" |
 | O | „Wem helft ihr, und wen ersetzt ihr?" |
 | P | „Wer entscheidet, wenn ihr nicht entscheidet?" |
-| E | „Was bleibt von euch, wenn die Tools weg sind?" |
+| E | „Welche Kampagne überlebt den 2. August 2026?" |
 
 ### Synthese (Slide 15): Q&A-Backdrop
 
@@ -194,9 +194,9 @@ Aus Vorlage übernommen, in dieser Version nicht eingesetzt (Diskussion läuft �
 | # | Dimension | Markenbeispiele | Stat | Quelle |
 |---|---|---|---|---|
 | 5 | S Suffizienz | Jasper, Copy.ai, Writesonic | 3.006 AI-Content-Farm-Sites | NewsGuard AI Tracking Center, Stand 17.03.2026 |
-| 7 | C Carbon | The Trade Desk, DV360, Klaviyo Predictive | 13 Mio./Sek. (Werbeeindrücke) | The Trade Desk, Kokai Launch, 06.06.2023 |
-| 9 | O Outcomes | Qualtrics Edge Audiences, Yabble (YouGov), Toluna HarmonAIze | +40% Datenqualitäts-Bedenken YoY | GRIT Insights Practice Report, Greenbook 2025 (+ Verbreitung Qualtrics 2025) |
-| 11 | P Power | Meta Advantage+, Google Performance Max | 6 + 50 (Wochen Ramp-up + Conversions) | Google Ads Help, 2026 · Meta Business Help Center |
+| 7 | C Carbon | The Trade Desk, DV360, Amazon DSP | 13 Mio./Sek. (Werbeeindrücke) | The Trade Desk, Kokai Launch, 06.06.2023 |
+| 9 | O Outcomes | Qualtrics Edge Audiences, Yabble (YouGov), Toluna HarmonAIze | 73 % Adoption (Marktforscher*innen 2025) | Qualtrics State of Research, 2025 |
+| 11 | P Power | Meta Advantage+, Google Performance Max | 50 Conversions / 7 Tage (Meta-Lernphase, + 6 Wochen Google Ramp-up) | Meta Business Help Center · Google Ads Help, 2026 |
 | 13 | E Endurance | Lil Miquela, Aitana Lopez, EU AI Act Art. 50 | 02.08.2026 (Stichtag) | Verordnung (EU) 2024/1689, Art. 50 |
 
 Recherche-Grundlage: `sources/marketingclub-ki-20260512/2026-05-06_A_marketing-ki-use-cases.md` (Strang A, Bestandsaufnahme), `2026-05-06_B_marketing-ki-scope-schnittstellen.md` (Strang B, SCOPE-Bewertung) und `review-claude-design.md` (Review mit Stats-Verifikation).
